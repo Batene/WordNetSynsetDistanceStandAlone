@@ -43,7 +43,7 @@ mvn install:install-file -Dfile=<path-to-virtjdbc-jar-file> -DgroupId=org.apache
 1) Clone this project
 2) Import it into eclipse: 
 ```
-Import project from File System -> Browse
+File -> Open Projects from File System -> Directory...
 ```
 Select the directory "WordNetSynsetDistanceStandAlone"
 3) Edit the configuration file applications.properties (in src/main/resources): Add the missing values and change those values which are given, if you need another value there (e.g. another port)
