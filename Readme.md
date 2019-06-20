@@ -54,7 +54,7 @@ Select "Application - acoli.uni.frankfurt.wordnet.topk" when the window "Select 
 Wait until the application starts, open browser and start querying , e.g.  http://localhost:8080/query?s=100017402-n&t=111996783-n&k=3 (or use curl, see below)
 
 Instead of running from Eclipse, you can also generate a jar and run it from the command line:
-Run ```mvn install```, find the jar that was generated in the target/lib directory, and run it from the command line, optionally determining another port than the default one (8080):
+Run ```mvn install```, find the jar that was generated in the target directory, and run it from the command line, optionally determining another port than the default one (8080):
 ```
 java -jar wordnet.topk-0.0.1-SNAPSHOT.jar --server.port=8081 
 ```
